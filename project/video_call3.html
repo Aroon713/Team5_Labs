@@ -12,7 +12,7 @@
         #face{
             width: 900px;
             position: relative;
-            top: 300px;
+            top: 140px;
             left: 80px;
         }
         button{
@@ -20,7 +20,7 @@
             width: 300px;
             left: 390px;
             border-radius: 100%;
-            background-color: rgb(17, 196, 17);
+            background-color: rgb(196, 17, 17);
             border: 0;
             outline: 0;
             position: relative;
@@ -28,17 +28,16 @@
 
         }
         #phone{
-            height:250px;
-            width: 150px;
-            position: relative;
-            left : -20px;
+            height:150px;
+            width: 250px;
+
         }
         .bottom{
             height: 500px;
             width: 1080px;
             background-color: black;
             position: relative;
-            top: 515px;
+            top: 1265px;
         }
         #calltext{
             color: white;
@@ -48,21 +47,38 @@
             left: 380px;
         }
         a{
-            text-decoration:none;
+            text-decoration: none;
+            color: black;
         }
+
+        #face2{
+            width: 150;
+            
+        }
+        #word{
+            font-size: 50px;
+            position: relative;
+            top: 50px;
+            left: 900px;
+        }
+
     </style>
 </head>
 <body>
     <main>
-        <img id="face" src="img/face.png">
+        <a href="video_call2.html">
+            <div id="word">
+                <img id="face2"src="img/face.png"> 
+            </div>
+        </a>
         <div class="bottom">
-            <a href="video_call2.html">
+            <a href="home.html">
                 <button>
-                   <img id="phone" src="img/phone.png" alt="">
+                   <img id="phone" src="img/phone2.png" alt="">
                 </button>
             </a>
             <div id="calltext">
-                상담 요청하기
+                상담 종료하기
             </div>
         </div>
     </main>
